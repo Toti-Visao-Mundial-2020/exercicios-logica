@@ -1,0 +1,32 @@
+table {
+  border: solid thin;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+}
+
+table th,
+table td {
+  border: solid thin;
+  padding: 0.5rem 2rem;
+}
+
+table th {
+  font-weight: bold;
+  text-align: center;
+}
+
+td.funcao {
+  vertical-align: middle;
+}
+
+.correto {
+  color: green;
+}
+
+.errado {
+  color: red;
+}
+
+.nao_implementado {
+  color: orange;
+}
