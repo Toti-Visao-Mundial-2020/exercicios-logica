@@ -46,21 +46,21 @@ console.log("ultimo alumno" ,clase[0] );
 
 var class1 =['yasmin', 'isadora', 'benedita', 'brenda', 'luiza', 'fatima', 'caio', 'teresinha', 'hugo', 'zeca', 'catarina', 'emanuel', 'marcelo', 'claudio', 'marina', 'isabela', 'anthony', 'rebeca', 'filipe', 'laís', 'vinicius', 'helena', 'elisa', 'rodrigo', 'geraldo', 'yuri', 'marcio']
 var class2 =[ 'benedita', 'elisa', 'emanuel', 'rodrigo', 'filipe', 'marcio', 'teresinha', 'laís', 'vinicius', 'marina', 'catarina', 'luiza', 'marcelo', 'rebeca', 'hugo', 'geraldo', 'zeca', 'caio', 'anthony', 'yasmin', 'claudio']
-var class3 = ['yasmin']
+var class3 = ['elisa']
 var contador=[]
 function llamar( class1, class2, class3,contador,){
-  var pos1 = class1.indexOf('elisa');
-  var pos2 = class2.indexOf('elisa');
-  var pos3 = class3.indexOf('elisa');
+  let pos1 = class1.indexOf('elisa');
+  let pos2 = class2.indexOf('elisa');
+  let pos3 = class3.indexOf('elisa');
   
-  var pegarnomi1= class1.splice(pos1);
-  var pegarnomi2= class2.splice(pos2);
-  var pegarnomi3= class3.splice(pos3);
+  let pegarnomi1= class1.splice(pos1);
+  let pegarnomi2= class2.splice(pos2);
+  let pegarnomi3= class3.splice(pos3);
 
   contador.push(pegarnomi1,pegarnomi2,pegarnomi3)
 
   console.log(contador);
-  console.log(pos1)
+  console.log(pos3)
 
 }
 console.log(llamar(class1,class2,class3,contador,));
