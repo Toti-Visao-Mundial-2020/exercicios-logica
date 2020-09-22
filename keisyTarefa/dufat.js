@@ -1,18 +1,18 @@
-function encriptar(args) {
-	args = args.replaceAll ("e", "enter"); 
-	args = args.replaceAll ("i", "imes");
-	args = args.replaceAll ("a", "ai");
-	args = args.replaceAll ("o", "ober"); 
-	args = args.replaceAll ("u", "ufat"); 
-	return args; 
+function encriptar(words) {
+	words = words.replaceAll ("e", "enter"); 
+	words = words.replaceAll ("i", "imes");
+	words = words.replaceAll ("a", "ai");
+	words = words.replaceAll ("o", "ober"); 
+	words = words.replaceAll ("u", "ufat"); 
+	return words; 
 } 
 
-function desencriptar(args) { 
-	args = args.replaceAll ("enter", "e"); 
-	args = args.replaceAll ("imes", "i"); 
-	args = args.replaceAll ("ai", "a"); 
-	args = args.replaceAll ("ober", "o"); 
-	args = args.replaceAll ("ufat", "u");
-	return args; 
+function desencriptar(words) { 
+	words = words.replaceAll ("enter", "e"); 
+	words = words.replaceAll ("imes", "i"); 
+	words = words.replaceAll ("ai", "a"); 
+	words = words.replaceAll ("ober", "o"); 
+	words = words.replaceAll ("ufat", "u");
+	return words; 
 	} 
 
