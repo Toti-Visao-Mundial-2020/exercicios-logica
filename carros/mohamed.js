@@ -11,19 +11,18 @@ export function temCarroDaMarca(carros, marca) {
         }
     }
     return false;
-    return !!carros.find((carro) => carro.marca === marca);
 }
 
 export function carrosNaCor(carros, cor) {
-    let x = 0;
+    let contador = 0;
     for (let i = 0; i < carros.length; i++) {
         if (carros[i].cor === cor) {
-            x++;
+            contador++;
         } else {
             continue;
         }
     }
-    return x;
+    return contador;
 }
 
 export function anosDisponiveis(carros) {
