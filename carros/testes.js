@@ -3,6 +3,7 @@ import * as jhoel from './jhoel.js'
 import * as keisy from './keisy.js'
 import * as lucry from './lucry.js'
 import * as mohamed from './mohamed.js'
+import * as jeff from './jeff.js'
 
 const carros = [
   { marca: "chevrolet", modelo: "onix", tipo: "hatch", cor: "verde", ano: 2014 },
@@ -343,6 +344,56 @@ testarAtividade({
 testarAtividade({
   numero: 5,
   aluno: mohamed,
+  funcao: "selecionarCarrosDaMarca",
+  testes: [
+    atividade5_1a,
+    atividade5_2a,
+    atividade5_3
+  ]
+})
+
+// Atividades Jeff
+testarAtividade({
+  numero: 1,
+  aluno: jeff,
+  funcao: "temCarroDaMarca",
+  testes: [
+    atividade1_1,
+    atividade1_2
+  ]
+})
+
+testarAtividade({
+  numero: 2,
+  aluno: jeff,
+  funcao: "carrosNaCor",
+  testes: [
+    atividade2_1b,
+    atividade2_2b
+  ]
+})
+
+testarAtividade({
+  numero: 3,
+  aluno: jeff,
+  funcao: "anosDisponiveis",
+  testes: [
+    atividade3
+  ]
+})
+
+testarAtividade({
+  numero: 4,
+  aluno: jeff,
+  funcao: "tiposDisponiveis",
+  testes: [
+    atividade4
+  ]
+})
+
+testarAtividade({
+  numero: 5,
+  aluno: jeff,
   funcao: "selecionarCarrosDaMarca",
   testes: [
     atividade5_1a,
