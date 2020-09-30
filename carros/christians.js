@@ -50,11 +50,11 @@ export function tiposDisponiveis(carros) {
 export function selecionarCarrosDaMarca(carros, marca) {
   // coloque aqui o algoritmo para retornar um array de object
   // com os carros da marca informado como parâmetro
-  let carroslist = [];
+  let carroslista = [];
   for (let i = 0; i < carros.length; i++) {
     if (carros[i].marca === marca) {
-      carroslist.push(carros[i]);
+      carroslista.push(carros[i]);
     }
   }
-  return carroslist;
+  return carroslista;
 }
